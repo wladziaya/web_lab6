@@ -1,0 +1,54 @@
+body {
+    background-color: #0097A7;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#buttons {
+    text-align: center;
+}
+
+button {
+    background-color: #11524c9c;
+    border-radius: 7px;
+    height: 50px;
+    width: 110px;
+    font-size: 15px;
+    color: #e0f2f1;
+    border: none;
+    font-family: inherit;
+}
+button:focus {
+    color: #0c4e47;
+    background-color: #20b6ad;
+  }
+
+#usersContainer {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#userDiv {
+   display:flex;
+   flex-direction: column;
+   width: 22%;
+   word-break: break-all;
+   background-color: #11524c9c;
+   padding: 10px;
+   margin: 5px;
+   border-radius: 7px;
+}
+
+span {
+    display:block;
+    color: #fff;
+    padding-top: 10px
+}
+
+#downloadStatus {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    margin: 15px;
+}
